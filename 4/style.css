@@ -1,0 +1,39 @@
+body{
+	background: url(images/back.jpg) fixed;
+}
+@keyframes fade{
+	0%{opacity: 0; transform: scale(0.5);}
+	25%{opacity: 0.25;);}
+	50%{opacity: 0.5;}
+	75%{opacity: 0.75;}
+	100%{opacity: 1; transform: scale(1.5);}
+}
+#fade img{
+	animation-name: fade;
+	animation-duration: 4s;
+	transform: scale(1.5);
+	padding-left: 50px;
+	padding-top: 100px;
+}
+@keyframes heart{
+	0%{transform: scale(0.75);}
+	10%{transform: scale(1);}
+	20%{transform: scale(0.75);}
+	30%{transform: scale(1);}
+	40%{transform: scale(0.75);}
+	50%{transform: scale(1);}
+	60%{transform: scale(0.75);}
+	70%{transform: scale(1);}
+	80%{transform: scale(0.75);}
+	90%{transform: scale(1);}
+	100%{transform: scale(0.75);}
+}
+#heart img{
+	animation-name: heart;
+	animation-duration: 3s;
+	transform: scale(0.75);
+}
+.wrapper{
+	display: flex;
+	justify-content: center;
+}
